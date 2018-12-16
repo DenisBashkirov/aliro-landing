@@ -1,0 +1,15 @@
+@import "../../../bootstrap"
+
+.benefits__item-icon
+  color: #dd1818
+  @supports (background: radial-gradient(rgba(221,24,24,.9) 0, #dd1818))
+    background: radial-gradient(rgba(221,24,24,.9) 0, #dd1818)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  font-size: 60px
+  margin-right: 1rem
+
+
+  @media ($brpt_md)
+    margin-right: 0
+    font-size: 100px

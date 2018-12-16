@@ -1,0 +1,16 @@
+@import "../../../bootstrap"
+
+.benefits__list
+  @include col-generate-auto
+
+
+  @media ($brpt_md)
+    @include row-generate(2, 30px)
+
+
+  @media ($brpt_lg)
+    @include row-generate(2, 50px)
+
+
+  @media ($brpt_xl)
+    @include row-generate(4, 30px, 30px, 1fr, nowrap)

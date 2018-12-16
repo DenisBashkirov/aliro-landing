@@ -1,0 +1,8 @@
+@import "../../../bootstrap"
+
+.about__list
+  @include col-generate-auto(20px)
+  justify-items: center
+
+  @media ($brpt_md)
+    @include row-generate(3)

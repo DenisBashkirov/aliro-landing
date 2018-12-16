@@ -1,0 +1,24 @@
+@import "../../../bootstrap"
+
+.section__header-title
+  $square_width: 15px
+  $square_margin: 10px
+
+  font-family: "Gilroy-Black"
+  font-size: 3.5rem
+  position: relative
+  padding-left: #{$square_margin + $square_width}
+  box-sizing: border-box
+
+  &:before
+    content: ''
+    display: block
+    height: 100%
+    width: $square_width
+    background-color: $red
+    position: absolute
+    left: 0
+
+
+  @media ($brpt_md)
+    font-size: 4.8rem

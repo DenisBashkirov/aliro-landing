@@ -1,0 +1,41 @@
+@import "../reset"
+@import "vars"
+@import "../vars"
+
+html
+  font-family: "Oswald-Regular" !important
+  font-size: 62.5%
+
+
+body
+  font-size: 1.8rem
+  color: $black
+  position: relative
+  background: url('/public/img/backgrounds/primary-screen.jpg') top center no-repeat #fdfcfa
+  background-size: 250%
+
+  @media ($brpt_md)
+    background-size: 220%
+
+  @media ($brpt_lg)
+    background-size: contain
+
+
+p
+
+
+img
+  max-width: 100%
+
+
+video
+  max-width: 100%
+
+
+a
+  color: $blue
+
+  @media ($brpt_xl)
+    transition: all $duration_normal
+    &:hover
+      color: $blue_dark

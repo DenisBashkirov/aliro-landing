@@ -1,0 +1,19 @@
+@import "../../../bootstrap"
+
+.benefits__item
+  display: flex
+  align-items: center
+  border-radius: 2px
+
+  @media ($brpt_md)
+    display: block
+    text-align: center
+
+
+  @media ($brpt_xl)
+    transition: all $duration_slow
+    padding: 15px
+
+    &:hover
+      background: $grey
+      box-shadow: 0 0 2px rgba(0,0,0,.2)

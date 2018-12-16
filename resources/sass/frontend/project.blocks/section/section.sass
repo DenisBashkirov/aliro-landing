@@ -1,0 +1,17 @@
+@import "../../bootstrap"
+
+.section
+  @include col-generate-auto(40px)
+  padding-top: 40px
+  padding-bottom: 30px
+
+
+  @media ($brpt_md)
+    @include col-generate-auto(45px)
+    padding-top: 80px
+    padding-bottom: 80px
+
+
+  @media ($brpt_xl)
+    padding-top: 80px
+    padding-bottom: 80px
