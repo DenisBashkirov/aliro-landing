@@ -1,6 +1,6 @@
-<div class="about section">
+<div class="about section" id="about">
 
-    <div class="section__container container">
+    <div class="section__container container" data-aos="fade-in">
         <div class="section__header">
             <p class="section__header-title">О компании</p>
             <p class="section__header-text">ООО “Алиро Гранд” - официальный представитель производственного предприятия “Индустрия окон”</p>

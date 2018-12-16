@@ -3,9 +3,8 @@
 @section('template')
 
     @include('frontend.layouts.header')
+    @include('frontend.layouts.nav')
 
     @yield('page_content')
-
-    @include('frontend.layouts.header')
 
 @endsection

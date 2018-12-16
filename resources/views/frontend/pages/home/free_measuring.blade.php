@@ -1,4 +1,4 @@
-<div class="free-measuring">
+<div class="free-measuring" id="free_measuring">
 
     <div class="section__overlay overlay"></div>
 

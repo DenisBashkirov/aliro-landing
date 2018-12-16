@@ -1,0 +1,39 @@
+@import "../../../bootstrap"
+
+.nav__link
+  font-family: "Gilroy-SemiBold"
+  text-decoration: none
+  font-size: 3rem
+  padding: 5px 0
+  text-align: center
+  color: $red_dark
+  position: relative
+
+
+  @media ($brpt_md)
+    padding: 0
+
+
+  @media ($brpt_xl)
+    transition: all $duration_normal
+
+    &:before
+      $square_width: 10px
+      $square_margin: 5px
+
+      content: ''
+      display: block
+      height: 100%
+      width: $square_width
+      background-color: $red
+      position: absolute
+      left: 0
+      transition: all $duration_normal
+      opacity: 0
+
+
+    &:hover
+      color: $red
+
+      &:before
+        opacity: 1

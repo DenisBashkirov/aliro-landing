@@ -1,5 +1,5 @@
-<div class="primary-screen">
-    <div class="primary-screen__container container">
+<div class="primary-screen" id="start">
+    <div class="primary-screen__container container" data-aos="fade-up">
 
         <div class="h1">
             <h1>Современные технологии остекления</h1>

@@ -2,7 +2,7 @@
 
     <div class="benefits__list container">
         @foreach($benefits as $benefit)
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="zoom-in">
                 <span class="benefits__item-icon icon-{{ $benefit->icon }}"></span>
                 <div>
                     <p class="benefits__item-title">{{ $benefit->title }}</p>
