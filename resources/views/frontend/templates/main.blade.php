@@ -6,4 +6,6 @@
 
     @yield('page_content')
 
+    @include('frontend.layouts.header')
+
 @endsection
