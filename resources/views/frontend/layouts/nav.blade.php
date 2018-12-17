@@ -7,7 +7,7 @@
             <a href="#about" class="nav__link">О компании</a>
             <a href="#categories" class="nav__link">Что мы делаем</a>
             <a href="#credit" class="nav__link">Рассрочка</a>
-            <a href="#free_measuring" class="nav__link">Запись на замер</a>
+            <a href="#free_measuring" class="btn btn_color_red btn_size_xl">Запись на замер</a>
             <a href="#portfolio" class="nav__link">Наши работы</a>
         </div>
 
