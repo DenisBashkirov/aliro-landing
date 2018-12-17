@@ -7,6 +7,7 @@
     @include('frontend.pages.home.benefits')
     @include('frontend.pages.home.about')
     @include('frontend.pages.home.categories')
+    @include('frontend.pages.home.delivery')
     @include('frontend.pages.home.credit')
     @include('frontend.pages.home.free_measuring')
     @include('frontend.pages.home.portfolio')
